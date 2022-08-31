@@ -1,8 +1,5 @@
-
-
-{
-"app_id": "请替换为自己的 appID",
-"app_secret": "请替换为自己的 appsecret",
+"app_id": "wxe7297ed513b47bd0",
+"app_secret": "ac4607a55d38224ea05d5114da4d1727",
 
 "template_id": "kpRcI6NFRJxxyQrxwgjaXlLfsp9taZyfV1FHWhEmjNI",
 "user_id": ["oplad51gF5QnQ_btga2oNJUo-0zo"],
@@ -35,4 +32,3 @@
 "API_TGRJ":"e90e3f5c1150b10f237b0516ce1678b5",
 # 土味情话
 "API_TWQH":"e90e3f5c1150b10f237b0516ce1678b5"
-}
