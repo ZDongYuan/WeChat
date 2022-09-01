@@ -4,7 +4,7 @@
 "app_id": "wxe7297ed513b47bd0",
 "app_secret": "ac4607a55d38224ea05d5114da4d1727",
 
-"template_id": "v3F9dq45w1wqaLR3hP1vdLm1XdVUfIIa70E7SjsvXeA",
+"template_id": "_oWm3ekKVXgG_eAgX8SW9DaXcyGOsIoQOPaZEppR06o",
 "user_id": ["oplad51gF5QnQ_btga2oNJUo-0zo" , "oplad511e3ITHPyhC8h0Z3WcgSS8"],
 
 "C_ShengFen": "河北",
