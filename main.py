@@ -1,10 +1,4 @@
-##############################
-##
-##       作者：张澳旗
-##     微信：17600005204
-##   有偿代做、每天自动推送
-##
-##############################
+
 
 import cityinfo
 import http.client, urllib
@@ -118,7 +112,7 @@ def Get_JinShanCiBa():
 
 # 天气预报
 def Get_TianQiYuBao():
-    if (API_TQYB != "替换掉我"):
+    if (API_TQYB != "e90e3f5c1150b10f237b0516ce1678b5"):
         conn = http.client.HTTPSConnection('api.tianapi.com')
         params = urllib.parse.urlencode({'key':API_TQYB,'city':C_ChengShi})
         headers = {'Content-type':'application/x-www-form-urlencoded'}
@@ -135,7 +129,7 @@ def Get_TianQiYuBao():
 
 # 星座运势
 def Get_XingZuoYunSHi():
-    if (API_XZYS != "替换掉我"):
+    if (API_XZYS != "e90e3f5c1150b10f237b0516ce1678b5"):
         conn = http.client.HTTPSConnection('api.tianapi.com')
         params = urllib.parse.urlencode({'key':API_XZYS,'astro':S_XingZuo})
         headers = {'Content-type':'application/x-www-form-urlencoded'}
@@ -157,7 +151,7 @@ def Get_XingZuoYunSHi():
 
 # 早安心语
 def Get_ZaoAnXinYu():
-    if (API_ZAXY != "替换掉我"):
+    if (API_ZAXY != "e90e3f5c1150b10f237b0516ce1678b5"):
         conn = http.client.HTTPSConnection('api.tianapi.com')
         params = urllib.parse.urlencode({'key':API_ZAXY})
         headers = {'Content-type':'application/x-www-form-urlencoded'}
@@ -173,7 +167,7 @@ def Get_ZaoAnXinYu():
 
 # 晚安心语
 def Get_WanAnXinYu():
-    if (API_WAXY != "替换掉我"):
+    if (API_WAXY != "e90e3f5c1150b10f237b0516ce1678b5"):
         conn = http.client.HTTPSConnection('api.tianapi.com')
         params = urllib.parse.urlencode({'key':API_WAXY})
         headers = {'Content-type':'application/x-www-form-urlencoded'}
@@ -190,7 +184,7 @@ def Get_WanAnXinYu():
 
 # 舔狗日记
 def Get_TianGouRiJi():
-    if (API_TGRJ != "替换掉我"):
+    if (API_TGRJ != "e90e3f5c1150b10f237b0516ce1678b5"):
         conn = http.client.HTTPSConnection('api.tianapi.com')
         params = urllib.parse.urlencode({'key':API_TGRJ})
         headers = {'Content-type':'application/x-www-form-urlencoded'}
@@ -206,7 +200,7 @@ def Get_TianGouRiJi():
 
 # 土味情话
 def Get_TuWeiQingHua():
-    if (API_TWQH != "替换掉我"):
+    if (API_TWQH != "e90e3f5c1150b10f237b0516ce1678b5"):
         conn = http.client.HTTPSConnection('api.tianapi.com')
         params = urllib.parse.urlencode({'key':API_TWQH})
         headers = {'Content-type':'application/x-www-form-urlencoded'}
