@@ -8,7 +8,7 @@
 "user_id": ["oplad51gF5QnQ_btga2oNJUo-0zo" , "oplad511e3ITHPyhC8h0Z3WcgSS8"],
 
 "C_ShengFen": "河北",
-"C_ChengShi": "迁安",
+"C_ChengShi": "唐山",
 "S_XingZuo": "处女座",
 
 "S_Love": "2020-11-01",
