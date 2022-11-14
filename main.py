@@ -112,7 +112,7 @@ def Get_JinShanCiBa():
 
 # 天气预报
 def Get_TianQiYuBao():
-    if (API_TQYB != "替"):
+    if (API_TQYB != "e90e3f5c1150b10f237b0516ce1678b5"):
         conn = http.client.HTTPSConnection('api.tianapi.com')
         params = urllib.parse.urlencode({'key':API_TQYB,'city':C_ChengShi})
         headers = {'Content-type':'application/x-www-form-urlencoded'}
