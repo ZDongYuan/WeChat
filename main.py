@@ -28,8 +28,8 @@ def Get_Color():
 
 # 验证测试号
 def Get_WeChat():
-    app_id = config["wxe7297ed513b47bd0"]
-    app_secret = config["ac4607a55d38224ea05d5114da4d1727"]
+    app_id = config["app_id"]
+    app_secret = config["app_secret"]
     post_url = ("https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={}&secret={}"
                 .format(app_id, app_secret))
     try:
